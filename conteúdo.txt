@@ -1,0 +1,56 @@
+document.querSelector("#id")
+() === possui, chama uma AÇÃO
+document.querSelector("#id").value = 'recebe um valor'
+
+DOM = Document Object Model - é o modelo de obj que um documento HTML é escrito, por HIERARQUIA
+
+document.querySelector("#inputName").value
+objeto.método("seletor").propriedade
+
+Json = padrão de notação.js
+
+js linguagem reativa
+
+SPA = SINGLE PAGE APPLICATION : aplicação de página única
+ex: gmail, netflix
+
+função =  retorna um valor
+sub-rotina = executa algo
+
+/* var valor = document.querySelector("#exampleInputName").value = 'recebe um valor'; <> nome.value = 'recebe um valor'; */
+/* 
+var nome = document.querySelector("#exampleInputName");
+nome.value = 'Lorena';
+nome.style.color = 'blue';
+
+var gender = document.querySelectorAll("#form-user-create [name=gender]:checked");
+var email = document.querySelector("#exampleInputEmail");
+var password = document.querySelector("#exampleInputPassword") */;
+//=========================JSON==============================
+/*var data = { name:"Lorena", email:"lorena@moroni", year:2020}
+para "leitura"
+data
+data.name
+typeof(data) , typeof(data.year) */
+
+
+/* document.querySelectorAll("button").forEach(function(btn){
+  //este
+  this.addEventListener("click", function(){
+    console.log("clicou!");
+  });
+}); 
+//esse não precisa usar o # antes 
+document.getElementById("form-user-create").addEventListener("submit", function(event){
+  //cancela o comando padrão (recarrega a  página)
+  event.preventDefault();
+  console.log('oi')
+});*/
+
+MVC === Model, View e Controller
+Quem controla? === Controller - Onde os atributos e métodos que controlam as regras acessam a View e o Model
+
+atividades e recursos do site{
+  *Síncrono == ocorre em sincronia
+  *Assíncrono == não dependem da ação do usuário
+}
