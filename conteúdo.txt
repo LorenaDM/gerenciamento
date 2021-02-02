@@ -54,3 +54,10 @@ atividades e recursos do site{
   *Síncrono == ocorre em sincronia
   *Assíncrono == não dependem da ação do usuário
 }
+
+======================DATA==================================
+new Date()
+  getDate()
+  getMoth()
+  getYear()
+
